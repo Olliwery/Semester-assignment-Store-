@@ -1,0 +1,456 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----------------------------------------- Index Page ------------------------------------- */
+.Test {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Title {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: #C40233;
+}
+
+.Test2 {
+    width: 100%;
+    height: 60px;
+    margin-top: 240px;
+}
+
+#output {
+    text-align: center;
+}
+
+#input {
+    display: flex;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.top {
+    display: flex;
+    background-color: #F6F6F6;
+}
+
+.top2 {
+    display: flex;
+}
+
+.top3 {
+    display: flex;
+    background-color: #F6F6F6;
+}
+
+.left1 {
+    width: 33%;
+}
+
+.middle1 {
+    width: 33%;
+}
+
+.right1 {
+    width: 25%;
+    margin-left: 5vW;
+    display: flex;
+    font-size: 1vW;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+.right1 hr {
+    width: 0.15vw;
+    background-color: black;
+    color: black;
+    height: 2vh;
+    align-items: center;
+}
+
+.right1 a {
+    text-decoration: none;
+    color: black;
+    margin-top: vh;
+}
+
+.left2 {
+    width: 33%;
+}
+
+.middle2 {
+    width: 33%;
+}
+
+.right2 {
+    width: 33%;
+}
+
+.middle3 {
+    display: flex;
+    margin: auto;
+}
+
+.middle3 p {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.middle3 a {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+#sportman {
+    width: 3vW;
+    margin-left: 40px;
+}
+
+#mikeLogo {
+    width: 6vW;
+    margin-left: 2.3vh;
+}
+
+#search {
+    width: 2vw;
+}
+
+#heart {
+    width: 2vW;
+}
+
+#shoppingCart {
+    width: 1.75vw;
+}
+
+.linker {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 3vW;
+    justify-content: center;
+}
+
+.linker a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.linker a:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.right2 {
+    display: flex;
+    justify-content: right;
+    margin-right: 4vW;
+}
+
+.searchBar {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 2vW;
+}
+
+.searchBar p {
+    color: grey;
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    gap: 1vW;
+    background-color: #F6F6F6;
+    border-radius: 3vW;
+    padding-left: 2vW;
+    padding-right: 7vW;
+}
+
+.searchIkon {
+    display: flex;
+    gap: 2vW;
+}
+
+.gruppeBilde {
+    width: 100%;
+    height: 900px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainText p {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.mainText h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: min(6vw, 4em);
+    margin-top: -1vh;
+}
+
+.mainText h2 {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: lighter;
+    font-size: 1.5vw;
+    margin-top: -2vh;
+}
+
+.mainText a {
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 1vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    border-radius: 100vh;
+    margin-bottom: 5vh;
+}
+
+
+
+.shoePic {
+    display: flex;
+    justify-content: center;
+    gap: 1.5vw;
+}
+
+#shoeBack {
+    width: 25vw;
+    background-color: #F6F6F6;
+    padding: 2vw;
+}
+
+.alleSko {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5vh;
+}
+.alleSko h1 {
+    font-size: 1.5vw;
+}
+.alleSko p {
+    font-size: 0.85vw;
+}
+.alleSko h2 {
+    font-size: 1.1vw;
+}
+.alleSko button {
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 1vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    border-radius: 100vh;
+    margin-bottom: 5vh;
+    cursor: pointer;
+}
+
+
+
+
+#loginButton {
+    cursor: pointer;
+    margin-top: 1vh;
+}
+
+.footer {
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+}
+
+.footer1 {
+    color: white;
+    display: flex;
+    gap: 2vw;
+    width: 50%;
+    align-items: center;
+}
+.footer1 p {
+    color: lightgray;
+}
+.footer11 {
+    display: flex;
+    font-weight: bold;
+}
+.footer11 p {
+    color: white;
+}
+
+.footer2 {
+    color: white;
+    display: flex;
+    gap: 2vw;
+    width: 50%;
+}
+.smIkon {
+    display: flex;
+    gap: 1vw;
+    position: right;
+    margin-left: auto;
+    margin-right: 7.5vw;
+    align-items: center;
+}
+#smIkon {
+    width: 2.5vw;
+    cursor: pointer;
+}
+
+.shoppingBag {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.Bag {
+    font-weight: lighter;
+    margin-left: 5vw;
+}
+.Bag button {
+    padding: 1vw;
+    background-color: greenyellow;
+    border-radius: 2vw;
+}
+
+.Summary {
+    width: 30vw;
+    margin-right: 5vw;
+}
+.Summary hr {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.SummaryButton1 a {
+    color: #757575;
+    text-decoration: none;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+    padding: 1.5vw;
+    border-radius: 5vw;
+}
+.SummaryButton1 a:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.SummaryButton1 img {
+    width: 4.5vw;
+}
+
+.div1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div1 h1 {
+    font-size: 1.15vw;
+}
+
+.BagItems {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+
+
+#shoppingCart_itemName{
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#shoppingCartQuantity {
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    flex-direction: column;
+}
+
+#shoppingCartPrice {
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    flex-direction: column;
+}
+
+.productInfo {
+    display: flex;
+    gap: 13vw;
+}
+
+.productInfo h3 {
+    margin-left: -8vw;
+}
+
+.checkoutMain {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: #F5F5F5;
+    border: black 2px solid;
+    border-radius: 0.5vw;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5.2vw;
+}
